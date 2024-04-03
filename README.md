@@ -1,4 +1,4 @@
-# My Porfolio Carlos Paredes
+# My Porfolio Carlos Andres  Paredes
 
 This project is avaliable in: https://mywesidecp.netlify.app/
 
