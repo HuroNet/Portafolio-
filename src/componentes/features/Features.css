@@ -1,0 +1,46 @@
+.features .box {
+    padding: 50px;
+  }
+  .features .box h2 {
+    margin: 20px 0 20px 0;
+  }
+  .features .box p {
+    word-spacing: 2px;
+    transition: 0.5s;
+  }
+  .features .box i { /**Tama;io del cuadrooo**/
+    font-size: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .features .box:hover p {
+    color: white;
+  }
+  .features .box:hover i {
+    color: white;
+    opacity: 1;
+  }
+
+  @media (max-width: 800px) {
+    .features .servicios {
+      width: 100%;
+      margin-left: 5000px;
+      margin-top: 500px;
+    }
+
+    .hero .home{
+        margin-top: 2%;
+    }
+    .features .servicios{
+      flex-direction: column;
+      flex-direction: column-reverse;
+    }
+    .hero .right_img {
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+    
+}
+  
