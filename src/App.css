@@ -17,7 +17,7 @@ body {
   background-color: #dbe3e9;
 }
 .container {
-  max-width: 89%;
+  max-width: 90%;
   margin: auto;
 }
 .d_flex {
@@ -48,13 +48,13 @@ button {
 }
 
 .btn_shadow { /*Forma y color de los iconos*/
-  padding: 1px 5px;
+  padding: 5px 10px;
   display: flexbox;
   border-radius: 10px;
   transition: 0.9s all ease;
   cursor: pointer;
   color: #0d0e0d;
-  transition: 0.5s;
+  transition: 0.7s;
   
 }
 
@@ -72,7 +72,7 @@ button {
 
 .btn_shadow {
   background: linear-gradient(145deg, #82b9db, #a89595);
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  box-shadow: 4px 8px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 .btn_shadow:hover {
   background: #293786;
