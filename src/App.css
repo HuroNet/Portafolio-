@@ -58,7 +58,7 @@ button {
   
 }
 
-.CV1{
+/* .CV1{
   background: linear-gradient(145deg, #82b9db, #a89595);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   text-align: center;
@@ -66,8 +66,7 @@ button {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   padding: 15px 20px;
-  
-}
+} */
 
 
 .btn_shadow {
