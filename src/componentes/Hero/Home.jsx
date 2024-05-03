@@ -59,7 +59,7 @@ const Home = () => {
             </span>
           </h2>
 
-          <button className="">
+          <button className="CV1 btn_shadow">
             <a href={pdf} download>
               Resume
             </a>
@@ -79,9 +79,10 @@ const Home = () => {
         <div className="foto">
           <img src={hero} />
         </div>
+
       </div>
 
-      <div className="findme hero_btn d_flex">
+      <div className="hero_btn d_flex">
         <h4> FIND WITH ME</h4>
         <div className="button1">
           <button className="btn_shadow">
@@ -116,6 +117,7 @@ const Home = () => {
           </button>
         </div>
       </div>
+      
     </>
   );
 };

@@ -1,7 +1,10 @@
 .welcome {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content:center ;
     flex: 1;
+    
     max-width: 90%;
     margin: auto;
     padding-top: 40px;
@@ -66,6 +69,35 @@
   font-size: 20px;
 }
 
+.CV1 {
+  background: linear-gradient(145deg, #82b9db, #a89595);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  text-align: center;
+  text-decoration: dashed;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  width: 100px; 
+  height: 50px; 
+  line-height: 50px; 
+} 
+
+
+.btn_shadow {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.btn_shadow {
+  background: linear-gradient(145deg, #82b9db, #a89595);
+  box-shadow: 4px 8px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.btn_shadow:hover {
+  background: #434892;
+  transform: translateY(-10px);
+}
+
+
 
 
 
@@ -76,7 +108,7 @@
 
 
 .hero_btn {
-  margin-top: 74px;
+  margin-top: 7px;
 }
 
 .hero_btn h4 {
@@ -91,6 +123,11 @@
   margin-right: 20px;
   margin-top: 20px;
 }
+
+
+
+
+
 .button1 {
   /*Forma y tama;o de features*/
   display: grid;
